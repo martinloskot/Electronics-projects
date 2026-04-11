@@ -18,7 +18,7 @@ Nízkofrekvenční zesilovač pro malé signály pracující ve třídě A v mů
 
 ## Výpočet pracovního bodu
 
-Výpočty jsou v souboru [`Výpočet/zesilovač_výpočty.xlsx`](Výpočet/zesilovač_výpočty.xlsx).
+Výpočty jsou v souboru [`Výpočet/zesilovač%20výpočty.xlsx`](Výpočet/zesilovač%20výpočty.xlsx).
 
 ### Hodnoty součástek (řada E12)
 
