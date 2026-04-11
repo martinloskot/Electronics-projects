@@ -4,7 +4,7 @@ Jednopólový tranzistorový zesilovač ve třídě A s nastavením pracovního 
 
 ## Schéma zapojení
 
-![Schéma zapojení](schéma/schéma.svg)
+![Schéma zapojení](Schéma/schéma.svg)
 
 ## Parametry obvodu
 
@@ -18,7 +18,7 @@ Jednopólový tranzistorový zesilovač ve třídě A s nastavením pracovního 
 
 ## Výpočet pracovního bodu
 
-Výpočty jsou v souboru [`výpočet/zesilovac_github.xlsx`](výpočet/zesilovac_github.xlsx).
+Výpočty jsou v souboru [`Výpočet/zesilovac_github.xlsx`](Výpočet/zesilovac_github.xlsx).
 
 ### Hodnoty součástek (řada E12)
 
