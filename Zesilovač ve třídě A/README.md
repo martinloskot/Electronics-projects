@@ -57,7 +57,7 @@ Odchylka UC od 0,5 UCC: **7,3 %**
 
 ## Návrh PCB
 
-![PCB](PCB/zesilovač%20PCB.svg)
+![PCB](zesilovač%20PCB/zesilovač%20PCB.svg)
 
 ## Soubory
 
