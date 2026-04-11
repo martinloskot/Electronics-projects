@@ -1,6 +1,6 @@
-# Zesilovač ve třídě A — BJT (NPN, BC547C)
+# Zesilovač ve třídě A založený na BC547C
 
-Jednopólový tranzistorový zesilovač ve třídě A s nastavením pracovního bodu pomocí napěťového děliče (RB1, RB2).
+Nízkofrekvenční zesilovač pro malé signály pracující ve třídě A v můstkovém zapojení se zápornou zpětnou vazbou pomocí emitorového odporu.
 
 ## Schéma zapojení
 
