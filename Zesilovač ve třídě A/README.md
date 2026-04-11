@@ -18,7 +18,7 @@ Jednopólový tranzistorový zesilovač ve třídě A s nastavením pracovního 
 
 ## Výpočet pracovního bodu
 
-Výpočty jsou v souboru [`Výpočet/zesilovac github.xlsx`](Výpočet/zesilovac github.xlsx).
+Výpočty jsou v souboru [`Výpočet/zesilovač výpočty.xlsx`](Výpočet/zesilovač výpočty.xlsx).
 
 ### Hodnoty součástek (řada E12)
 
