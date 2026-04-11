@@ -1,6 +1,7 @@
 # Zesilovač ve třídě A založený na BC547C
 
-Nízkofrekvenční zesilovač pro malé signály pracující ve třídě A v můstkovém zapojení se zápornou zpětnou vazbou pomocí emitorového odporu.
+Nízkofrekvenční zesilovač pro malé signály pracující ve třídě A 
+se společným emitorem a stabilizací pracovního bodu emitorovým odporem.
 
 ## Schéma zapojení
 
