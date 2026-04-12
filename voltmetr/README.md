@@ -49,7 +49,7 @@ $$D_{OUT} = \frac{U_{AVG}}{U_{REF}} \cdot 2^n$$
 ## Schémata zapojení
 
 <p align="center">
-  <img src="voltmetr/schémata/Vstupní%20zesilovač/Vstupní%20zesilovač.svg" width="48%" alt="Vstupní zesilovač"/>
+  <img src="schémata/Vstupní%20zesilovač/Vstupní%20zesilovač.svg" width="48%" alt="Vstupní zesilovač"/>
   <img src="sch%C3%A9mata/ADC/ADC%20sch%C3%A9ma.svg" width="48%" alt="ADC"/>
 </p>
 <p align="center">
