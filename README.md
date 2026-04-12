@@ -19,7 +19,7 @@ Dlouhodobá maturitní práce (2026). Stolní digitální voltmetr postavený na
 
 **Hlavní vlastnosti:**
 - Měřicí rozsah ±25 V, rozlišení ~4 platné číslice
-- Vstupní přístrojový zesilovač (TL071 + TL072) s vysokou vstupní impedancí (řád TΩ)
+- Vstupní přístrojový zesilovač (TL071 + TL072), vstupní impedance ~10 MΩ
 - Samočinné nulování (autozero) před každým převodem
 - Řízení pomocí ESP32, zobrazení na LCD 1602 přes I²C
 - Vlastní síťový napájecí zdroj (±15 V, symetrický)
