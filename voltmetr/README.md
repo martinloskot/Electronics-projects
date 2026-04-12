@@ -108,7 +108,7 @@ Typická relativní chyba v pracovním rozsahu je **1,1 – 2,7 %**.
 | Displej | 1602 LCD + I²C backpack PCF8574 |
 | Napájení | LM7815, LM7915, LM7805, L78L08, L79L08 |
 
-Plný kusovník je součástí [dokumentace (PDF)](DMP_Loskot.pdf).
+Plný kusovník je součástí [dokumentace (PDF)](DMP%20Loskot.pdf).
 
 ---
 
