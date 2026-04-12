@@ -15,9 +15,9 @@ Cílem bylo postavit přesný měřicí přístroj s vysokou vstupní impedancí
 ## Fotografie
 
 <p align="center">
-  <img src="fotky/P%C5%99edn%C3%AD%20strana.jpg" width="32%" alt="Přední strana"/>
-  <img src="fotky/Zadn%C3%AD%20strana.jpg" width="32%" alt="Zadní strana"/>
-  <img src="fotky/Osazen%C3%AD%20sk%C5%99%C3%ADn%C4%9B.jpg" width="32%" alt="Osazení skříně"/>
+  <img src="fotky/P%C5%99edn%C3%AD%20strana.jpg" width="32%" alt="Přední%20strana"/>
+  <img src="fotky/Zadn%C3%AD%20strana.jpg" width="32%" alt="Zadní%20strana"/>
+  <img src="fotky/Osazen%C3%AD%20sk%C5%99%C3%ADn%C4%9B.jpg" width="32%" alt="Osazení%20skříně"/>
 </p>
 
 ---
@@ -41,7 +41,7 @@ $$D_{OUT} = \frac{U_{AVG}}{U_{REF}} \cdot 2^n$$
 ## Blokové schéma
 
 <p align="center">
-  <img src="sch%C3%A9mata/Blokov%C3%A9%20sch%C3%A9ma/Blokov%C3%A9%20sch%C3%A9ma.svg" alt="Blokové schéma"/>
+  <img src="sch%C3%A9mata/Blokov%C3%A9%20sch%C3%A9ma/Blokov%C3%A9%20sch%C3%A9ma.svg" alt="Blokové%20schéma"/>
 </p>
 
 ---
@@ -49,15 +49,15 @@ $$D_{OUT} = \frac{U_{AVG}}{U_{REF}} \cdot 2^n$$
 ## Schémata zapojení
 
 <p align="center">
-  <img src="sch%C3%A9mata/Vstupn%C3%AD%20zesilov%C3%A1%C4%8D/Vstupn%C3%AD%20zesilov%C3%A1%C4%8D.svg" width="48%" alt="Vstupní zesilovač"/>
+  <img src="sch%C3%A9mata/Vstupn%C3%AD%20zesilov%C3%A1%C4%8D/Vstupn%C3%AD%20zesilov%C3%A1%C4%8D.svg" width="48%" alt="Vstupní%20zesilovač"/>
   <img src="sch%C3%A9mata/ADC/ADC%20sch%C3%A9ma.svg" width="48%" alt="ADC"/>
 </p>
 <p align="center">
-  <img src="sch%C3%A9mata/Nap%C4%9B%C5%A5ov%C3%A1%20reference/Nap%C4%9B%C5%A5ov%C3%A1%20reference.svg" width="48%" alt="Napěťová reference"/>
-  <img src="sch%C3%A9mata/%C5%98%C3%ADd%C3%ADc%C3%AD%20mikrokontrol%C3%A9r/Sch%C3%A9ma%20desky%20ESP.svg" width="48%" alt="Řídicí mikrokontrolér"/>
+  <img src="sch%C3%A9mata/Nap%C4%9B%C5%A5ov%C3%A1%20reference/Nap%C4%9B%C5%A5ov%C3%A1%20reference.svg" width="48%" alt="%20reference"/>
+  <img src="sch%C3%A9mata/%C5%98%C3%ADd%C3%ADc%C3%AD%20mikrokontrol%C3%A9r/Sch%C3%A9ma%20desky%20ESP.svg" width="48%" alt="Řídicí%20mikrokontrolér"/>
 </p>
 <p align="center">
-  <img src="sch%C3%A9mata/Nap%C3%A1jec%C3%AD%20zdroj/Nap%C3%A1jec%C3%AD%20zdroj.svg" width="60%" alt="Napájecí zdroj"/>
+  <img src="sch%C3%A9mata/Nap%C3%A1jec%C3%AD%20zdroj/Nap%C3%A1jec%C3%AD%20zdroj.svg" width="60%" alt="%20zdroj"/>
 </p>
 
 ---
@@ -65,11 +65,11 @@ $$D_{OUT} = \frac{U_{AVG}}{U_{REF}} \cdot 2^n$$
 ## Desky plošných spojů
 
 <p align="center">
-  <img src="PCB/Vstupn%C3%AD%20zesilov%C3%A1%C4%8D/P%C5%99%C3%ADstrojov%C3%BD%20zesilov%C3%A1%C4%8D%20PCB.svg" width="48%" alt="PCB – Vstupní zesilovač"/>
+  <img src="PCB/Vstupn%C3%AD%20zesilov%C3%A1%C4%8D/P%C5%99%C3%ADstrojov%C3%BD%20zesilov%C3%A1%C4%8D%20PCB.svg" width="48%" alt="PCB – Vstupní%20zesilovač"/>
   <img src="PCB/ADC/ADC%20PCB.svg" width="48%" alt="PCB – ADC"/>
 </p>
 <p align="center">
-  <img src="PCB/Nap%C4%9B%C5%A5ov%C3%A1%20reference/Nap%C4%9B%C5%A5ov%C3%A1%20reference%20PCB.svg" width="48%" alt="PCB – Napěťová reference"/>
+  <img src="PCB/Nap%C4%9B%C5%A5ov%C3%A1%20reference/Nap%C4%9B%C5%A5ov%C3%A1%20reference%20PCB.svg" width="48%" alt="PCB – Napěťová%20reference"/>
   <img src="PCB/%C5%98%C3%ADd%C3%ADc%C3%AD%20mikrokontrol%C3%A9r/%C5%98%C3%ADd%C3%ADc%C3%AD%20mikrokontrol%C3%A9r%20PCB.svg" width="48%" alt="PCB – Řídicí mikrokontrolér"/>
 </p>
 <p align="center">
