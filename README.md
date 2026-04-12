@@ -8,7 +8,7 @@ Schémata a PCB jsou navržena v **KiCadu**.
 
 ## Projekty
 
-### 🔬 [Digitální voltmetr – ADC s dvojí integrací](./voltmetr/)
+### [Digitální voltmetr – ADC s dvojí integrací](./voltmetr/)
 
 Dlouhodobá maturitní práce (2026). Stolní digitální voltmetr postavený na principu analogově-digitálního převodníku s dvojí integrací – bez použití integrovaného ADC, čistě na diskrétních součástkách.
 
@@ -27,7 +27,7 @@ Dlouhodobá maturitní práce (2026). Stolní digitální voltmetr postavený na
 
 ---
 
-### 📡 [Zesilovač ve třídě A – BC547C](./zesilova%C4%8D%20ve%20t%C5%99%C3%ADd%C4%9B%20A/)
+### [Zesilovač ve třídě A – BC547C](./zesilova%C4%8D%20ve%20t%C5%99%C3%ADd%C4%9B%20A/)
 
 Nízkofrekvenční tranzistorový zesilovač pro malé signály pracující ve třídě A se společným emitorem. Projekt zahrnuje kompletní výpočet pracovního bodu, návrh hodnot součástek z řady E12, ověření měřením a návrh PCB.
 
