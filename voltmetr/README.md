@@ -54,7 +54,7 @@ Převod probíhá ve třech fázích:
 
 <div align="center">
   <table><tr><td style="border: 1px solid #ccc; background: white;">
-  <img src="voltmetr/sch%C3%A9mata/Vstupn%C3%AD%20zesilova%C4%8D/Vstupn%C3%AD%20zesilova%C4%8D.svg" width="600px" alt="Vstupní zesilovač"/>
+  <img src="sch%C3%A9mata/Vstupn%C3%AD%20zesilova%C4%8D/Vstupn%C3%AD%20zesilova%C4%8D.svg" width="600px" alt="Vstupní zesilovač"/>
   </td></tr></table>
   <em>Vstupní zesilovač</em><br/><br/>
 </div>
