@@ -53,7 +53,7 @@ Převod probíhá ve třech fázích:
 ## Schémata zapojení
 
 <p align="center">
-  <img src="sch%C3%A9mata/Vstupn%C3%AD%20zesilova%A1%C4%8D/Vstupn%C3%AD%20zesilova%A1%C4%8D.svg" width="70%" alt="Vstupní zesilovač"/><br/>
+  <img src="voltmetr/sch%C3%A9mata/Vstupn%C3%AD%20zesilova%C4%8D/Vstupn%C3%AD%20zesilova%C4%8D.svg" width="70%" alt="Vstupní zesilovač"/>
   <em>Vstupní zesilovač</em>
 </p>
 <p align="center">
