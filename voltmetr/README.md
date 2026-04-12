@@ -54,7 +54,7 @@ $$D_{OUT} = \frac{U_{AVG}}{U_{REF}} \cdot 2^n$$
 </p>
 <p align="center">
   <img src="sch%C3%A9mata/Nap%C4%9B%C5%A5ov%C3%A1%20reference/Nap%C4%9B%C5%A5ov%C3%A1%20reference.svg" width="48%" alt="Napěťová reference"/>
-  <img src="voltmetr/schémata/Vstupní%20zesilovač/Vstupní%20zesilovač.svg" width="600" alt="Schéma vstupního zesilovače">
+  <img src="voltmetr/schémata/Vstupní%20zesilovač/Vstupní%20zesilovač.svg" width="600" alt="Vstupní zesilovač">
 </p>
 <p align="center">
   <img src="sch%C3%A9mata/Nap%C3%A1jec%C3%AD%20zdroj/Nap%C3%A1jec%C3%AD%20zdroj.svg" width="60%" alt="Napájecí zdroj"/>
