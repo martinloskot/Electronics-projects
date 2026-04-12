@@ -31,6 +31,11 @@ Dlouhodobá maturitní práce (2026). Stolní digitální voltmetr postavený na
 
 Nízkofrekvenční tranzistorový zesilovač pro malé signály pracující ve třídě A se společným emitorem. Projekt zahrnuje kompletní výpočet pracovního bodu, návrh hodnot součástek z řady E12, ověření měřením a návrh PCB.
 
+<p align="center">
+  <img src="Zesilova%C4%8D%20ve%20t%C5%99%C3%ADd%C4%9B%20A/Sch%C3%A9ma/sch%C3%A9ma.svg" width="70%" alt="Schéma zesilovače ve třídě A"/><br/>
+  <em>Schéma zapojení zesilovače</em>
+</p>
+
 **Hlavní vlastnosti:**
 - Napájení 10 V, klidový proud 6 mA, pracovní bod U_C = 5 V
 - Naměřené napěťové zesílení A_u ≈ 11,26
