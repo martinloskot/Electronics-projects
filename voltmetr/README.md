@@ -67,7 +67,7 @@ $$D_{OUT} = \frac{U_{AVG}}{U_{REF}} \cdot 2^n$$
 </p>
 <p align="center">
   <img src="PCB/Nap%C4%9B%C5%A5ov%C3%A1%20reference/Nap%C4%9B%C5%A5ov%C3%A1%20reference%20PCB.svg" width="48%" alt="PCB – Napěťová reference"/>
-  <img src="PCB/%C5%98%C3%ADd%C3%ADc%C3%AD%20mikrokontroler/%C5%98%C3%ADd%C3%ADc%C3%AD%20mikrokontrol%C3%A9r%20PCB.svg" width="48%" alt="PCB – Řídicí mikrokontrolér"/>
+  <img src="PCB/%C5%98%C3%ADdic%C3%AD%20mikrokontroler/%C5%98%C3%ADdic%C3%AD%20mikrokontrol%C3%A9r%20PCB.svg" width="48%" alt="Řídicí mikrokontrolér">
 </p>
 <p align="center">
   <img src="PCB/Nap%C3%A1jec%C3%AD%20zdroj/Nap%C3%A1jec%C3%AD%20zdroj%20PCB.svg" width="60%" alt="PCB – Napájecí zdroj"/>
