@@ -65,7 +65,7 @@ $$D_{OUT} = \frac{U_{AVG}}{U_{REF}} \cdot 2^n$$
 ## Desky plošných spojů
 
 <p align="center">
-  <img src="PCB/Vstupn%C3%AD%20zesilov%C3%A1%C4%8D/P%C5%99%C3%ADstrojov%C3%BD%20zesilov%C3%A1%C4%8D%20PCB.svg" width="48%" alt="PCB – Vstupní zesilovač"/>
+  <img src="PCB/Vstupn%C3%AD%20zesilova%A1%C4%8D/P%C5%99%C3%ADstrojov%C3%BD%20zesilova%A1%C4%8D%20PCB.svg" width="48%" alt="PCB – Vstupní zesilovač"/>
   <img src="PCB/ADC/ADC%20PCB.svg" width="48%" alt="PCB – ADC"/>
 </p>
 <p align="center">
