@@ -50,7 +50,7 @@ Nízkofrekvenční tranzistorový zesilovač pro malé signály pracující ve t
 |---|---|
 | [KiCad](https://www.kicad.org/) | Schémata a návrh PCB |
 | Microsoft Excel | Výpočty pracovních bodů a zpracování měření |
-| ESP32 / Arduino IDE | Firmware voltmetru |
+| ESP32 | Firmware voltmetru |
 
 ---
 
