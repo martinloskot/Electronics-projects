@@ -6,7 +6,7 @@
 
 ## O projektu
 
-Tento repozitář obsahuje dokumentaci k maturitní práci zaměřené na návrh a realizaci **stolního digitálního voltmetru** postaveného na principu analogově-digitálního převodníku s dvojí integrací (dual-slope ADC). Přístroj měří stejnosměrné napětí v rozsahu **±25 V** s rozlišením přibližně **4 platných číslic**.
+Tento repozitář obsahuje dokumentaci k maturitní práci zaměřené na návrh a realizaci **stolního digitálního voltmetru** postaveného na principu analogově-digitálního převodníku s dvojí integrací (dual-slope ADC). Přístroj měří stejnosměrné napětí v rozsahu **±25&nbsp;V** s rozlišením přibližně **4&nbsp;platných číslic**.
 
 Cílem bylo postavit přesný měřicí přístroj s vysokou vstupní impedancí, odolností vůči rušení a funkcí samočinného nulování – vše na diskrétních součástkách s vlastním síťovým napájecím zdrojem.
 
@@ -36,12 +36,12 @@ Převod probíhá ve třech fázích:
 | Fáze | Název | Popis |
 |------|-------|-------|
 | **T1** | Integrace | Vstupní napětí je po pevně danou dobu integrováno. Výsledný náboj na kondenzátoru je úměrný střední hodnotě vstupního napětí. |
+| | | |
 | **T2** | Deintegrace (čtení) | Integrátor se vybíjí přesným referenčním napětím. Délka T2 je úměrná poměru $$\frac{U_{vstup}}{U_{ref}}$$. Mikrokontrolér měří tuto dobu a z ní vypočítá výsledek. |
+| | | |
 | **T3** | Samočinné nulování | Integrační kondenzátor se vybije, provede se fiktivní převod nulového napětí a detekovaná chyba se odečte od dalšího výsledku. Eliminuje offsety OZ a termoelektrické vlivy. |
 
----
-
-## Blokové schéma
+<br/><em>
 
 <p align="center">
   <img src="sch%C3%A9mata/Blokov%C3%A9%20sch%C3%A9ma/Blokov%C3%A9%20sch%C3%A9ma.svg" width="70%" alt="Blokové schéma"/><br/>
@@ -50,67 +50,29 @@ Převod probíhá ve třech fázích:
 
 ---
 
-## Schémata zapojení
+### Jádro převodníku (ADC)
 
-<div align="center">
-  <table><tr><td style="border: 1px solid #ccc; background: white;">
-  <img src="sch%C3%A9mata/Vstupn%C3%AD%20zesilova%C4%8D/Vstupn%C3%AD%20zesilova%C4%8D.svg" width="600px" alt="Vstupní zesilovač"/>
-  </td></tr></table>
-  <em>Vstupní zesilovač</em><br/><br/>
-</div>
+Detailní schéma analogově-digitálního převodníku (integrátor a komparátor).
 
 <div align="center">
   <table><tr><td style="border: 1px solid #ccc; background: white;">
     <img src="sch%C3%A9mata/ADC/ADC%20sch%C3%A9ma.svg" width="600px" alt="ADC"/>
   </td></tr></table>
-  <em>Analogově-digitální převodník</em><br/><br/>
-</div>
-
-<div align="center">
-  <table><tr><td style="border: 1px solid #ccc; background: white;">
-    <img src="sch%C3%A9mata/Nap%C4%9B%C5%A5ov%C3%A1%20reference/Nap%C4%9B%C5%A5ov%C3%A1%20reference.svg" width="600px" alt="Napěťová reference"/>
-  </td></tr></table>
-  <em>Napěťová reference</em><br/><br/>
-</div>
-
-<div align="center">
-  <table><tr><td style="border: 1px solid #ccc; background: white;">
-    <img src="sch%C3%A9mata/%C5%98%C3%ADd%C3%ADc%C3%AD%20mikrokontrol%C3%A9r/Sch%C3%A9ma%20desky%20ESP.svg" width="600px" alt="Řídicí mikrokontrolér"/>
-  </td></tr></table>
-  <em>Řídicí mikrokontrolér</em><br/><br/>
-</div>
-
-<div align="center">
-  <table><tr><td style="border: 1px solid #ccc; background: white;">
-    <img src="sch%C3%A9mata/Nap%C3%A1jec%C3%AD%20zdroj/Nap%C3%A1jec%C3%AD%20zdroj.svg" width="600px" alt="Napájecí zdroj"/>
-  </td></tr></table>
-  <em>Napájecí zdroj</em><br/><br/>
+  <em>Schéma ADC</em><br/><br/>
 </div>
 
 ---
 
-## Desky plošných spojů
+## Dokumentace hardwaru
 
-<p align="center">
-  <img src="PCB/Vstupn%C3%AD%20zesilova%C4%8D/P%C5%99%C3%ADstrojov%C3%BD%20zesilova%C4%8D%20PCB.svg" width="70%" alt="PCB – Vstupní zesilovač"/><br/>
-  <em>Vstupní zesilovač</em><br/><br/>
-</p>
-<p align="center">
-  <img src="PCB/ADC/ADC%20PCB.svg" width="70%" alt="PCB – ADC"/><br/>
-  <em>Analogově-digitální převodník</em><br/><br/>
-</p>
-<p align="center">
-  <img src="PCB/Nap%C4%9B%C5%A5ov%C3%A1%20reference/Nap%C4%9B%C5%A5ov%C3%A1%20reference%20PCB.svg" width="70%" alt="PCB – Napěťová reference"/><br/>
-  <em>Napěťová reference</em><br/><br/>
-</p>
-<p align="center">
-  <img src="PCB/%C5%98%C3%ADdic%C3%AD%20mikrokontroler/%C5%98%C3%ADdic%C3%AD%20mikrokontrol%C3%A9r%20PCB.svg" width="70%" alt="PCB – Řídicí mikrokontrolér"/><br/>
-  <em>Řídicí mikrokontrolér</em><br/><br/>
-</p>
-<p align="center">
-  <img src="PCB/Nap%C3%A1jec%C3%AD%20zdroj/Nap%C3%A1jec%C3%AD%20zdroj%20PCB.svg" width="70%" alt="PCB – Napájecí zdroj"/><br/>
-  <em>Napájecí zdroj</em><br/><br/>
-</p>
+Všechna schémata a návrhy desek (PCB) jsou přehledně rozdělena do modulů v následující tabulce:
+
+| Modul | Schéma (SVG) | Deska (PCB) |
+| :--- | :---: | :---: |
+| **Vstupní zesilovač** | [Odkaz](sch%C3%A9mata/Vstupn%C3%AD%20zesilova%C4%8D/Vstupn%C3%AD%20zesilova%C4%8D.svg) | [Odkaz](PCB/Vstupn%C3%AD%20zesilova%C4%8D/P%C5%99%C3%ADstrojov%C3%BD%20zesilova%C4%8D%20PCB.svg) |
+| **Napěťová reference** | [Odkaz](sch%C3%A9mata/Nap%C4%9B%C5%A5ov%C3%A1%20reference/Nap%C4%9B%C5%A5ov%C3%A1%20reference.svg) | [Odkaz](PCB/Nap%C4%9B%C5%A5ov%C3%A1%20reference/Nap%C4%9B%C5%A5ov%C3%A1%20reference%20PCB.svg) |
+| **Řídicí mikrokontrolér** | [Odkaz](sch%C3%A9mata/%C5%98%C3%ADd%C3%ADc%C3%AD%20mikrokontrol%C3%A9r/Sch%C3%A9ma%20desky%20ESP.svg) | [Odkaz](PCB/%C5%98%C3%ADdic%C3%AD%20mikrokontroler/%C5%99%C3%ADdic%C3%AD%20mikrokontrol%C3%A9r%20PCB.svg) |
+| **Napájecí zdroj** | [Odkaz](sch%C3%A9mata/Nap%C3%A1jec%C3%AD%20zdroj/Nap%C3%A1jec%C3%AD%20zdroj.svg) | [Odkaz](PCB/Nap%C3%A1jec%C3%AD%20zdroj/Nap%C3%A1jec%C3%AD%20zdroj%20PCB.svg) |
 
 ---
 
@@ -120,15 +82,15 @@ Přesnost voltmetru byla ověřena porovnáním se dvěma školními digitální
 
 | Měřené napětí (ref.) | Naměřeno voltmetrem | Absolutní chyba ΔU | Relativní chyba δU |
 |---------------------:|--------------------:|-------------------:|-------------------:|
-| −24,219 V | −24,492 V | −0,273 V | 1,13 % |
-| −8,342 V | −8,445 V | −0,103 V | 1,24 % |
-| 6,677 V | 6,834 V | +0,157 V | 2,35 % |
-| 12,977 V | 12,203 V | +0,227 V | 1,89 % |
-| 24,217 V | 24,654 V | +0,437 V | 1,81 % |
+| −24,219&nbsp;V | −24,492&nbsp;V | −0,273&nbsp;V | 1,13&nbsp;% |
+| −8,342&nbsp;V | −8,445&nbsp;V | −0,103&nbsp;V | 1,24&nbsp;% |
+| 6,677&nbsp;V | 6,834&nbsp;V | +0,157&nbsp;V | 2,35&nbsp;% |
+| 12,977&nbsp;V | 12,203&nbsp;V | +0,227&nbsp;V | 1,89&nbsp;% |
+| 24,217&nbsp;V | 24,654&nbsp;V | +0,437&nbsp;V | 1,81&nbsp;% |
 
 Absolutní chyba vykazuje lineární závislost na měřeném napětí: $\Delta U \approx 0{,}0136 \cdot U_{ref}$
 
-Typická relativní chyba v pracovním rozsahu je **1,1 – 2,7 %**.
+Typická relativní chyba v pracovním rozsahu je **1,1&nbsp;–&nbsp;2,7&nbsp;%**.
 
 ---
 
