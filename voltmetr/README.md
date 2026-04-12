@@ -19,12 +19,12 @@ Cílem bylo postavit přesný měřicí přístroj s vysokou vstupní impedancí
   <em>Přední strana</em>
 </p>
 <p align="center">
-  <img src="fotky/Zadn%C3%AD%20strana.png" width="70%" alt="Zadní strana"/><br/>
-  <em>Zadní strana</em>
-</p>
-<p align="center">
   <img src="fotky/Osazen%C3%AD%20sk%C5%99%C3%ADn%C4%9B.png" width="70%" alt="Osazení skříně"/><br/>
   <em>Osazení skříně</em>
+</p>
+<p align="center">
+  <img src="fotky/Zadn%C3%AD%20strana.png" width="70%" alt="Zadní strana"/><br/>
+  <em>Zadní strana</em>
 </p>
 
 ---
@@ -53,7 +53,7 @@ Převod probíhá ve třech fázích:
 ## Schémata zapojení
 
 <p align="center">
-  <img src="sch%C3%A9mata/Vstupn%C3%AD%20zesilov%C3%A1%C4%8D/Vstupn%C3%AD%20zesilov%C3%A1%C4%8D.svg" width="70%" alt="Vstupní zesilovač"/><br/>
+  <img src="sch%C3%A9mata/Vstupn%C3%AD%20zesilova%A1%C4%8D/Vstupn%C3%AD%20zesilova%A1%C4%8D.svg" width="70%" alt="Vstupní zesilovač"/><br/>
   <em>Vstupní zesilovač</em>
 </p>
 <p align="center">
