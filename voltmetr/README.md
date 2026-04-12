@@ -15,15 +15,15 @@ Cílem bylo postavit přesný měřicí přístroj s vysokou vstupní impedancí
 ## Fotografie
 
 <p align="center">
-  <img src="fotky/P%C5%99edn%C3%AD%20strana.png" width="70%" alt="Přední strana"/><br/>
+  <img src="fotky/P%C5%99edn%C3%AD%20strana.png" width="70%" alt="Přední strana" style="background-color: white; border: 1px solid #d1d5db; padding: 5px; border-radius: 8px;"/><br/>
   <em>Přední strana</em>
 </p>
 <p align="center">
-  <img src="fotky/Osazen%C3%AD%20sk%C5%99%C3%ADn%C4%9B.png" width="70%" alt="Osazení skříně"/><br/>
+  <img src="fotky/Osazen%C3%AD%20sk%C5%99%C3%ADn%C4%9B.png" width="70%" alt="Osazení skříně" style="background-color: white; border: 1px solid #d1d5db; padding: 5px; border-radius: 8px;"/><br/>
   <em>Osazení skříně</em>
 </p>
 <p align="center">
-  <img src="fotky/Zadn%C3%AD%20strana.png" width="70%" alt="Zadní strana"/><br/>
+  <img src="fotky/Zadn%C3%AD%20strana.png" width="70%" alt="Zadní strana" style="background-color: white; border: 1px solid #d1d5db; padding: 5px; border-radius: 8px;"/><br/>
   <em>Zadní strana</em>
 </p>
 
@@ -44,7 +44,7 @@ Převod probíhá ve třech fázích:
 ## Blokové schéma
 
 <p align="center">
-  <img src="sch%C3%A9mata/Blokov%C3%A9%20sch%C3%A9ma/Blokov%C3%A9%20sch%C3%A9ma.svg" width="70%" alt="Blokové schéma"/><br/>
+  <img src="sch%C3%A9mata/Blokov%C3%A9%20sch%C3%A9ma/Blokov%C3%A9%20sch%C3%A9ma.svg" width="70%" alt="Blokové schéma" style="background-color: white; border: 1px solid #d1d5db; padding: 10px; border-radius: 8px;"/><br/>
   <em>Blokové schéma</em>
 </p>
 
@@ -53,23 +53,23 @@ Převod probíhá ve třech fázích:
 ## Schémata zapojení
 
 <p align="center">
-  <img src="sch%C3%A9mata/Vstupn%C3%AD%20zesilova%C4%8D/Vstupn%C3%AD%20zesilova%C4%8D.svg" width="70%" alt="Vstupní zesilovač"/><br/>
+  <img src="sch%C3%A9mata/Vstupn%C3%AD%20zesilova%C4%8D/Vstupn%C3%AD%20zesilova%C4%8D.svg" width="70%" alt="Vstupní zesilovač" style="background-color: white; border: 1px solid #d1d5db; padding: 10px; border-radius: 8px;"/><br/>
   <em>Vstupní zesilovač</em>
 </p>
 <p align="center">
-  <img src="sch%C3%A9mata/ADC/ADC%20sch%C3%A9ma.svg" width="70%" alt="ADC"/><br/>
+  <img src="sch%C3%A9mata/ADC/ADC%20sch%C3%A9ma.svg" width="70%" alt="ADC" style="background-color: white; border: 1px solid #d1d5db; padding: 10px; border-radius: 8px;"/><br/>
   <em>Analogově-digitální převodník</em>
 </p>
 <p align="center">
-  <img src="sch%C3%A9mata/Nap%C4%9B%C5%A5ov%C3%A1%20reference/Nap%C4%9B%C5%A5ov%C3%A1%20reference.svg" width="70%" alt="Napěťová reference"/><br/>
+  <img src="sch%C3%A9mata/Nap%C4%9B%C5%A5ov%C3%A1%20reference/Nap%C4%9B%C5%A5ov%C3%A1%20reference.svg" width="70%" alt="Napěťová reference" style="background-color: white; border: 1px solid #d1d5db; padding: 10px; border-radius: 8px;"/><br/>
   <em>Napěťová reference</em>
 </p>
 <p align="center">
-  <img src="sch%C3%A9mata/%C5%98%C3%ADd%C3%ADc%C3%AD%20mikrokontrol%C3%A9r/Sch%C3%A9ma%20desky%20ESP.svg" width="70%" alt="Řídicí mikrokontrolér"/><br/>
+  <img src="sch%C3%A9mata/%C5%98%C3%ADd%C3%ADc%C3%AD%20mikrokontrol%C3%A9r/Sch%C3%A9ma%20desky%20ESP.svg" width="70%" alt="Řídicí mikrokontrolér" style="background-color: white; border: 1px solid #d1d5db; padding: 10px; border-radius: 8px;"/><br/>
   <em>Řídicí mikrokontrolér</em>
 </p>
 <p align="center">
-  <img src="sch%C3%A9mata/Nap%C3%A1jec%C3%AD%20zdroj/Nap%C3%A1jec%C3%AD%20zdroj.svg" width="70%" alt="Napájecí zdroj"/><br/>
+  <img src="sch%C3%A9mata/Nap%C3%A1jec%C3%AD%20zdroj/Nap%C3%A1jec%C3%AD%20zdroj.svg" width="70%" alt="Napájecí zdroj" style="background-color: white; border: 1px solid #d1d5db; padding: 10px; border-radius: 8px;"/><br/>
   <em>Napájecí zdroj</em>
 </p>
 
@@ -78,23 +78,23 @@ Převod probíhá ve třech fázích:
 ## Desky plošných spojů
 
 <p align="center">
-  <img src="PCB/Vstupn%C3%AD%20zesilov%C3%A1%C4%8D/P%C5%99%C3%ADstrojov%C3%BD%20zesilov%C3%A1%C4%8D%20PCB.svg" width="70%" alt="PCB – Vstupní zesilovač"/><br/>
+  <img src="PCB/Vstupn%C3%AD%20zesilov%C3%A1%C4%8D/P%C5%99%C3%ADstrojov%C3%BD%20zesilov%C3%A1%C4%8D%20PCB.svg" width="70%" alt="PCB – Vstupní zesilovač" style="background-color: white; border: 1px solid #d1d5db; padding: 5px; border-radius: 8px;"/><br/>
   <em>Vstupní zesilovač</em>
 </p>
 <p align="center">
-  <img src="PCB/ADC/ADC%20PCB.svg" width="70%" alt="PCB – ADC"/><br/>
+  <img src="PCB/ADC/ADC%20PCB.svg" width="70%" alt="PCB – ADC" style="background-color: white; border: 1px solid #d1d5db; padding: 5px; border-radius: 8px;"/><br/>
   <em>Analogově-digitální převodník</em>
 </p>
 <p align="center">
-  <img src="PCB/Nap%C4%9B%C5%A5ov%C3%A1%20reference/Nap%C4%9B%C5%A5ov%C3%A1%20reference%20PCB.svg" width="70%" alt="PCB – Napěťová reference"/><br/>
+  <img src="PCB/Nap%C4%9B%C5%A5ov%C3%A1%20reference/Nap%C4%9B%C5%A5ov%C3%A1%20reference%20PCB.svg" width="70%" alt="PCB – Napěťová reference" style="background-color: white; border: 1px solid #d1d5db; padding: 5px; border-radius: 8px;"/><br/>
   <em>Napěťová reference</em>
 </p>
 <p align="center">
-  <img src="PCB/%C5%98%C3%ADdic%C3%AD%20mikrokontroler/%C5%98%C3%ADdic%C3%AD%20mikrokontrol%C3%A9r%20PCB.svg" width="70%" alt="PCB – Řídicí mikrokontrolér"/><br/>
+  <img src="PCB/%C5%98%C3%ADdic%C3%AD%20mikrokontroler/%C5%98%C3%ADdic%C3%AD%20mikrokontrol%C3%A9r%20PCB.svg" width="70%" alt="PCB – Řídicí mikrokontrolér" style="background-color: white; border: 1px solid #d1d5db; padding: 5px; border-radius: 8px;"/><br/>
   <em>Řídicí mikrokontrolér</em>
 </p>
 <p align="center">
-  <img src="PCB/Nap%C3%A1jec%C3%AD%20zdroj/Nap%C3%A1jec%C3%AD%20zdroj%20PCB.svg" width="70%" alt="PCB – Napájecí zdroj"/><br/>
+  <img src="PCB/Nap%C3%A1jec%C3%AD%20zdroj/Nap%C3%A1jec%C3%AD%20zdroj%20PCB.svg" width="70%" alt="PCB – Napájecí zdroj" style="background-color: white; border: 1px solid #d1d5db; padding: 5px; border-radius: 8px;"/><br/>
   <em>Napájecí zdroj</em>
 </p>
 
