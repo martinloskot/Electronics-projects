@@ -92,7 +92,7 @@ Převod probíhá ve třech fázích:
 ## Desky plošných spojů
 
 <p align="center">
-  <img src="PCB/Vstupn%C3%AD%20zesilov%C3%A1%C4%8D/P%C5%99%C3%ADstrojov%C3%BD%20zesilov%C3%A1%C4%8D%20PCB.svg" width="70%" alt="PCB – Vstupní zesilovač"/><br/>
+  <img src="PCB/Vstupn%C3%AD%20zesilova%C4%8D/P%C5%99%C3%ADstrojov%C3%BD%20zesilova%C4%8D%20PCB.svg" width="70%" alt="PCB – Vstupní zesilovač"/><br/>
   <em>Vstupní zesilovač</em><br/><br/>
 </p>
 <p align="center">
